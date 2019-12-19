@@ -1,0 +1,37 @@
+read
+5OEN.pdb
+HETATM-H-------- 0,9999, 1.1,1.1,1.1, 0.0
+HETATMH--------- 0,9999, 1.0,1.0,1.0, 0.0
+ATOM  -H-------- 0,9999, 1.0,1.0,1.0, 0.0
+ATOM  H--------- 0,9999, 1.0,1.0,1.0, 0.0
+HETATM-----HOH-- 0,9999, 1.0,1.0,0.0, 0.0
+ATOM  -SER B 187      48.571  -1.546  37.482  1.00 66.85------- 0,9999  1.00, 0.00, 0.00, 1.6
+ATOM  -LEU B 197      39.303  12.967  32.944  1.00 35.16  ------- 0,9999  0.83, 0.62, 0.00, 1.6
+ATOM  -LEU B 229      39.114  58.711  20.407  1.00 32.48 ------- 0,9999  0.59, 0.83, 0.37, 1.6
+END
+center
+auto
+trans
+0,0,0
+scale
+12
+zrot
+90.0
+yrot
+-180.0
+xrot
+10.058199380869949
+yrot
+-15.768011623617843
+zrot
+-15.889505692013106
+wor
+0.,0.,0.,0.,0.,0.,1.,1.
+1,0.0023,2,1,0.7
+-30,-30                                                      # image size in pixels, negative numbers pad the molecule by that amount
+illustrate
+3,10,4,0,5  # parameters for outlines, atomic
+3,10  # subunits
+3,8,6  # outlines defining regions of the chain
+calculate
+5OEN.pnm
